@@ -1,0 +1,56 @@
+/* CSS DE SOBRE */
+
+
+.bg-img{
+    background-image: url(../img/bg.png); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;    
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.sobre{
+    display: grid;
+}
+
+.sobre-info{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 100%;
+      
+        
+}
+
+.sobre-info h1{
+    font-size: 2.5em;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#info-text{
+    display: inline-block;
+    background-color: #FFFFFF;
+    width: 60%;
+    height: auto;
+    font-size: 11px;
+    padding: 25px;
+    box-shadow: 2px 2px 15px 4px #b8b1b1;
+   
+}
+
+.sobre-info p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+#info-bold{
+    font-weight: bold;
+}
+
+
+

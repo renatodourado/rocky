@@ -1,0 +1,118 @@
+@media screen and (max-width:830px){
+
+    
+    nav{ 
+        display: none;
+              
+    }
+
+    menu li a{
+        flex-direction: column;
+    }
+
+
+    .menu-mob{
+        display: flex;
+        cursor: pointer;
+        font-size: 35px;
+        margin-left: 5%;
+        margin-top: 5%;
+        color: #ffffff ;
+        position: absolute;
+        
+    }
+
+    .logo-img{
+        display: flex;
+        margin-left: 30%;
+        top: 5%;
+        align-items: center;
+        position: absolute;
+        cursor: pointer;
+    }
+
+    .sobre-info, .servicos-info, .diferenciais-info h1{
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #servicos{
+        margin-top: 20%;
+    }
+
+    .ft-corpo-es{
+        width: 100%;
+        margin-top: 10%;
+        justify-content: center;
+        align-items: center;
+        min-width: 100vw;
+    }
+
+    .ft-text{
+        width: 60%;
+    }
+
+    .contato{
+        align-items: center;
+        margin-left: 25%;
+        margin-bottom: 100%;
+        margin-top: 15%;
+       
+     }
+    
+}
+
+
+
+
+
+@media screen and (max-width:724px){
+
+    .slidearea{
+        font-size: 75%;
+        
+    }
+}
+
+@media screen and (max-width:550px){
+
+    .slidearea{
+        font-size: 45%;
+        
+    }
+
+    .ft-corpo-es{
+        margin-top: 20%;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:360px){
+
+    .ft-corpo-es{
+        
+        align-items: center;
+    }
+
+    #contat{
+        width: 80%;
+        max-width: 450px;
+    }
+    
+    .form{
+        width: auto;
+    }
+}
+
+
+
+
+
+
+

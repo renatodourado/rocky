@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;      
+    
+}
+
+.container{
+    margin: 0 auto;
+    display: inline;
+    max-width: 85%;
+    overflow-x: hidden;
+}
+        
+header{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 1);
+    font-size: 12px;
+    background-size: cover;
+    background-image: url(../img/s1\ desk.png);
+    background-position: top;
+    overflow: hidden;
+    
+}
+.header{
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;   
+    
+    
+}
+.menu{
+    display:inline-flex ;
+    
+}
+
+.logo-img img{
+    display: block;
+    width: 150px;    
+    margin-left: 15%;
+}
+
+.menu ul,
+.menu li{
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+}
+
+
+nav ul{ 
+    display: inline;
+    position: absolute;
+    right: 10%;
+}
+
+
+
+.menu li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: block;
+    justify-content: right;
+    align-items: center;
+ 
+}
+
+.menu-mob{
+    display: block;
+    transform: translateY(-100%);
+    transition: all 200ms linear;
+
+}
+
+.banner{
+    margin-bottom: 20px;   
+    
+}
+
+.banner .slide{
+    display: inline;
+    background-color:rgba(0, 0, 0, 0.1) ;
+}
+.banner .slidearea{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+.banner h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.banner p{
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.banner span{
+    color:#EFE60B;
+    font-size: 12px;
+    
+}
+
+.button{
+    display: inline-block;
+    background-color: #1CD4E9;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

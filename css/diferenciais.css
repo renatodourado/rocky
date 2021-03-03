@@ -1,0 +1,89 @@
+
+/*  CSS DE DIFERENCIAIS */
+
+
+.diferenciais{
+    width: 100%;    
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    margin-top: 5%;
+}
+
+
+.diferenciais-info h1{
+    display: flex;
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 7%;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.cards-diferenciais{
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: 5%;
+        
+}
+
+
+.icon i{ 
+    color: #fff;
+    font-size: 70px;
+    padding-top: 10%;
+}
+
+.card-item-df{
+    margin: 30px;
+    text-align: center;
+    padding: 20px 15px;
+    background-image:linear-gradient(rgba(0, 0, 0, 2
+    ), rgba(0,0,0,0.4)), url(../img/s5\ desk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 350px;
+    width: 200px;
+    border-radius:20px;
+    color:#fff
+
+}
+
+.card-item-df-center{
+    margin: 30px;
+    text-align: center;
+    padding: 20px 15px;
+    background-image:linear-gradient(rgba(0, 0, 0, 2
+    ), rgba(0,0,0,0.4)), url(../img/s6\ desk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 350px;
+    width: 200px;
+    border-radius:20px;
+    color:#fff
+
+}
+
+.card-item-df-right{
+    margin: 30px;
+    text-align: center;
+    padding: 20px 15px;
+    background-image:linear-gradient(rgba(0, 0, 0, 2
+    ), rgba(0,0,0,0.4)), url(../img/s7\ desk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 350px;
+    width: 200px;
+    border-radius:20px;
+    color:#fff
+
+}
+

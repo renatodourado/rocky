@@ -1,0 +1,198 @@
+
+/* CSS DE FOOTER */
+
+
+.ft-icons a{
+    margin-left: 2%;
+    padding-top: 3%;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.ft-icons{
+    margin-left: 15%;
+}
+
+.ft-icons i{
+    margin-left: 10%;
+    
+}
+
+.ft-contat{
+    margin-left: 15%;
+    padding-top: 3%;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.ft-contat i{
+    color: #EFE60B; 
+}
+
+#contat-text{
+    color: #fff;
+    margin: 5px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#separador{
+    margin-left: 5%;    
+}
+
+#phone{
+    margin-left: 5%;   
+    cursor: pointer; 
+}
+
+.ft-local i{
+    color: #EFE60B;
+}
+
+.ft-local{
+    margin-left: 15%;
+    padding-top: 3%;
+    color: #fff;
+    font-size: 11px;
+    display: flex;
+    float: left;
+    
+}
+
+.ft-top{
+    margin-bottom: -40px;
+}
+.ft-top, .ft-bottom{
+    width: auto;
+    height: 40px;
+    background-color: #EFE60B;
+    position: relative;
+    
+}
+
+.ft-corpo{
+    background-color: #191919;    
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+
+}
+
+.ft-corpo-es{
+    align-content: center;
+    display: grid;
+    width: 40%;
+       
+}
+.ft-bottom{
+    display: flex;
+    position: relative;
+  
+}
+
+.ft-text{
+    float: left;
+    width: 75%;
+    color: #fff;
+    margin-left: 15%;
+    text-align: center;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    
+}
+
+#p-amarelo{
+    color: #EFE60B;
+    
+}
+
+#p-azul{
+    color: #1CD4E9;
+    
+}
+
+
+
+
+
+
+
+
+
+/* CSS DO FORMULÁRIO */
+
+
+.contato{
+    display:flex;
+    background-color:#818181;
+    float: right;
+    justify-content: center;
+    align-items:center ;
+    margin: 5% auto;
+    
+}
+
+form{
+    padding: 25px;
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.formulario{
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    align-content: center;
+
+}
+
+.field{
+    padding:15px;    
+    width: 100%;
+    margin-bottom: 25px;
+    min-width: auto;
+    transition: all 0.5ms ease-in-out
+}
+
+.field:hover{
+
+    transform: scale(1.01);
+    transition: all 0.5ms ease-in-out;
+}
+
+textarea{
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.5ms ease-in-out;
+}
+
+textarea:hover{
+    transform: scale(1.01);
+    transition: all 0.5ms ease-in-out;
+}
+
+.ft-button{
+    background-color: #1CD4E9;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.ft-button:hover{
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.01);
+}
+
+
+
